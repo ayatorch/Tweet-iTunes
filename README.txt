@@ -4,6 +4,7 @@
 4. setting "Tweet-iTunes.scpt" in user variable.
 5. run "auth.scpt" and paste pin to dialog. create ~/Library/Preferences/ASObject.OAuth.plist
 6. run "Tweet-iTunes.scpt" no confirm tweet.
+7. move "Tweet-iTunes.scpt" to "~/Library/iTunes/Scripts"
 
 上の英語は適当です。
 以下、日本語の解説。
@@ -17,3 +18,4 @@
 5. auth.scptをAppleScriptエディタで開いて実行すればブラウザが立ち上がってダイアログが出てくるのでPINを入れる。
    ~/Library/Preferences/ASObject.OAuth.plistが作られます。
 6. Tweet-iTunes.scptを実行すればiTunesの曲がTwitterにPostされます。
+7. Tweet-iTunes.scptを~/Library/iTunes/ScriptsにおけばステータスバーからPostできます。
